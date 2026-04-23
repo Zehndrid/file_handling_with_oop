@@ -32,5 +32,10 @@ class StudentGwaEvaluator:
             # Handle missing file error
             print("Error: Student file not found.")
 
+if __name__ == "__main__":
+    # Run the GWA evaluator
+    evaluator = StudentGwaEvaluator("student_gwa.txt")
+    evaluator.find_highest_gwa()
+
  
      
