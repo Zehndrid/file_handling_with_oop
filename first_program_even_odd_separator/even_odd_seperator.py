@@ -9,3 +9,10 @@ class NumberSeparator:
                 all_numbers = [int(line.strip()) for line in file if line.strip().lstrip('-').isdigit()]
 
                 with open(even_file, 'w') as file_even, open(odd_file, 'w') as file_odd:
+                    for number in all_numbers:
+                    if number % 2 == 0:
+                        file_even.write(f"{number}\n")
+                    else:
+                        file_odd.write(f"{number}\n")
+                        
+            print("Success! Numbers separated.")
