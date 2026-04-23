@@ -34,7 +34,7 @@ class StudentGwaEvaluator:
 
 if __name__ == "__main__":
     # Run the GWA evaluator
-    evaluator = StudentGwaEvaluator("student_gwa.txt")
+    evaluator = StudentGwaEvaluator("student_and_gwa.txt")
     evaluator.find_highest_gwa()
 
  
