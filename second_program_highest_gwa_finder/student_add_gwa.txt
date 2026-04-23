@@ -1,10 +1,20 @@
-89
-78
-81
-85
-83
-97
-96
-98
-95
-94
+Max Verstappen, 98.7
+Lando Norris, 96.5
+Charles Leclerc, 95.8
+Carlos Sainz, 94.2
+Lewis Hamilton, 97.1
+George Russell, 93.9
+Oscar Piastri, 95.0
+Sergio Perez, 89.4
+Fernando Alonso, 96.0
+Lance Stroll, 85.5
+Yuki Tsunoda, 88.2
+Alexander Albon, 90.1
+Esteban Ocon, 87.6
+Pierre Gasly, 88.9
+Nico Hulkenberg, 91.3
+Kevin Magnussen, 86.7
+Valtteri Bottas, 89.8
+Isack Hadjar, 84.5
+Franco Colapinto, 92.4
+Ollie Bearman, 94.8
