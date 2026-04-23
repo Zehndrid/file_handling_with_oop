@@ -26,5 +26,5 @@ class NumberSeparator:
 
 if __name__ == "__main__":
     # Run the separator
-    separator = NumberSeparator("even_odd_separator.txt")
+    separator = NumberSeparator("even_and_odd_separator.txt")
     separator.separate_and_save("even.txt", "odd.txt")
