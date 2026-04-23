@@ -10,4 +10,9 @@ class StudentGwaEvaluator:
         highest_gwa = -1.0
         top_student = ""
 
+        try:
+            # Read student file
+            with open(self.file_path, 'r') as file:
+                
+
      
