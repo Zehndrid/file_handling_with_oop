@@ -20,3 +20,8 @@ class NumberSeparator:
             except FileNotFoundError:
            
                 print("Error: Input file missing.")
+
+if __name__ == "__main__":
+    
+    separator = NumberSeparator("numbers.txt")
+    separator.separate_and_save("even.txt", "odd.txt")
