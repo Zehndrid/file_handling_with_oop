@@ -13,6 +13,13 @@ class StudentGwaEvaluator:
         try:
             # Read student file
             with open(self.file_path, 'r') as file:
-                
+                # Check each student 
+                for line in file:
+                    parts = line.strip().split(',')
+                    
+                    if len(parts) == 2:
+                        student_name = parts[0].strip()
+                        current_gwa = float(parts[1].strip())
 
+ 
      
