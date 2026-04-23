@@ -28,5 +28,9 @@ class StudentGwaEvaluator:
             # Print the result
             print(f"Top Student: {top_student} with GWA: {highest_gwa}")
 
+        except FileNotFoundError:
+            # Handle missing file error
+            print("Error: Student file not found.")
+
  
      
