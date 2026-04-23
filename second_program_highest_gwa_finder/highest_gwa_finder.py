@@ -21,5 +21,12 @@ class StudentGwaEvaluator:
                         student_name = parts[0].strip()
                         current_gwa = float(parts[1].strip())
 
+                        # Update top student if current GWA is higher
+                        if current_gwa > highest_gwa:
+                            highest_gwa = current_gwa
+                            top_student = student_name
+            # Print the result
+            print(f"Top Student: {top_student} with GWA: {highest_gwa}")
+
  
      
