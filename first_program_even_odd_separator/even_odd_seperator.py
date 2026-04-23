@@ -7,3 +7,5 @@ class NumberSeparator:
             try:
                 with open(self.input_file, 'r') as file:
                 all_numbers = [int(line.strip()) for line in file if line.strip().lstrip('-').isdigit()]
+
+                with open(even_file, 'w') as file_even, open(odd_file, 'w') as file_odd:
