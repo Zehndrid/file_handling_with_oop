@@ -17,3 +17,7 @@ class LifeStoryWriter:
                 
                 if user_line.upper() == "STOP":
                     break
+                # Save line to file
+                file.write(f"{user_line}\n")
+                
+        print("Success! File saved.")
