@@ -10,3 +10,6 @@ class NumberProcessor:
             # Read integers from file
             with open(self.input_file, 'r') as file:
                 all_numbers = [int(line.strip()) for line in file if line.strip().lstrip('-').isdigit()]
+
+            # Open output files
+            with open(double_file, 'w') as file_double, open(triple_file, 'w') as file_triple:
