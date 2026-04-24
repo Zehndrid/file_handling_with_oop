@@ -25,3 +25,8 @@ class NumberProcessor:
         except FileNotFoundError:
             # Handle missing file
             print("Error: Source file missing.")
+
+if __name__ == "__main__":
+    # Run the processor
+    processor = NumberProcessor("integers.txt")
+    processor.process_and_save("double.txt", "triple.txt")
