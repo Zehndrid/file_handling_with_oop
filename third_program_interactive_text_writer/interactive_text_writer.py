@@ -21,3 +21,8 @@ class LifeStoryWriter:
                 file.write(f"{user_line}\n")
                 
         print("Success! File saved.")
+
+if __name__ == "__main__":
+    # Run the writer
+    writer = LifeStoryWriter("mylife.txt")
+    writer.write_lines()
