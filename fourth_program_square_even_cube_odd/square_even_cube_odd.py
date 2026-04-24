@@ -21,3 +21,7 @@ class NumberProcessor:
                         file_triple.write(f"{number ** 3}\n")
                         
             print("Success! Math completed and saved.")
+
+        except FileNotFoundError:
+            # Handle missing file
+            print("Error: Source file missing.")
