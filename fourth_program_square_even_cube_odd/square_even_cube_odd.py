@@ -13,3 +13,11 @@ class NumberProcessor:
 
             # Open output files
             with open(double_file, 'w') as file_double, open(triple_file, 'w') as file_triple:
+                # Sort and calculate
+                for number in all_numbers:
+                    if number % 2 == 0:
+                        file_double.write(f"{number ** 2}\n")
+                    else:
+                        file_triple.write(f"{number ** 3}\n")
+                        
+            print("Success! Math completed and saved.")
