@@ -11,3 +11,9 @@ class LifeStoryWriter:
 
         # Open file for writing
         with open(self.output_file, 'w') as file:
+            # Loop until user types STOP
+            while True:
+                user_line = input("> ")
+                
+                if user_line.upper() == "STOP":
+                    break
