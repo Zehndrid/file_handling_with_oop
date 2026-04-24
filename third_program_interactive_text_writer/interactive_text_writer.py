@@ -8,3 +8,6 @@ class LifeStoryWriter:
     # Get input and write lines
     def write_lines(self):
         print("Write your story. Type 'STOP' to finish.\n")
+
+        # Open file for writing
+        with open(self.output_file, 'w') as file:
